@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%, url(poza3.avif));
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.Navbar{
+    width: 1600px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 50px;
+}
+
+.Logo{
+    color: orangered;
+    font-size: 50px;
+    font-family: Arial;
+    padding-left: 1px;
+    float: left;
+    padding-top: 10px;
+}
+
+.Menu{
+    width: 70px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+ul li{
+    list-style: none;
+    margin: 70px;
+    margin-top: 25px;
+    font-size: 15px;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: orangered
+}
+
+.Search{
+    width: 330px;
+    float: left;
+    margin-left: 1000px ;
+    position: relative;
+    align-items: flex-end;
+    display: inline;
+}
+
+.search{
+    font-family: 'Time New Roman';
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid orangered;
+    margin-top: 15px;
+    color: black;
+    border-right: none;
+    font-size: 15px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    cursor: pointer;
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    background: orangered;
+    border: 2px solid orangered;
+    margin-top: 15px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    float: left;
+    cursor: pointer;
+
+}
+
+.btn:focus{
+    outline: auto;
+
+}
+
+.search:focus{
+    outline: auto;
+}
+
+.Content{
+    width: 1200px;
+    height: 50px;
+    margin-top: 9%;
+    padding-left: 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: Arial;
+    color: black;
+}
+
+.Paragraf{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    padding-top: 2%;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.cn{
+    width: 150px;
+    height: 40px;
+    background: orangered;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border: 5px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 4%;
+    
+}
+
+.cn a{
+    text-decoration: solid;
+    color: black;
+    transition: 3s ease;
+}
+
+.cn:hover{
+    background-color: white;
+    
+}
+
+.Form{
+    width: 260px;
+    height: 390px;
+    position: absolute;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    top: 150px;
+    left: 1560px;
+    border-radius: 20px;
+    padding: 25px;
+
+}
+
+.Form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orangered;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.Form input{
+    width: 240px;
+    height: 30px;
+    background: transparent;
+    border-bottom: 2px solid orangered;
+    border-top: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+.btnlogin{
+    width: 240px;
+    height: 40px;
+    background: orangered;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s;
+}
+
+.btnlogin:hover{
+    background: white;
+    color: orangered ;
+}
+    
+
+
+.btnlogin a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Form .Link{
+   font-family: Arial;
+   text-align: center;
+   font-size: 17px;
+   padding-top: 20px; 
+}
+
+.Form .Link a{
+    color: orangered;
+    text-align: center;
+}
+
+.Logwith{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.Icons a{
+    text-decoration: none;
+    color: white;
+}
+
+.Icons ion-icon{
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 1px;
+    transition: 0.4s;
+}
+
+ion-icon:hover{
+    color:orangered
+}
+
+
+
+
